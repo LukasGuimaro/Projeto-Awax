@@ -1,14 +1,17 @@
-body {
+* {
     margin: 0px;
     padding: 0px;
-    /* background-color: yellow; */
+    box-sizing: border-box;
+}
+
+body {
     font-family: 'Montserrat', sans-serif;
 }
 
 header {
     height: 100px;
     background-color: black;
-
+    
 }
 
 .conteiner {
@@ -16,4 +19,21 @@ header {
     color: white;
     height: 100px;
     margin: auto; /* Centralizando */
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+}
+
+.menu {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
 }
