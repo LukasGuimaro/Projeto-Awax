@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', arial, sans-serif;
 }
 
 header {
@@ -28,12 +28,38 @@ header {
 }
 
 .logo img {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
 }
 
 .menu {
     flex: 1;
     display: flex;
     justify-content: flex-end;
+}
+
+.menu ul,
+.menu li {
+    list-style: none;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 8px;
+    font-weight: 600; /* Tamanho de fonte importada */
+    height: 100px;
+    display: flex; /* Aumento de altura para borda */
+    align-items: center;
+    border-bottom: 5px solid black;
+}
+
+.menu li a:hover,
+.menu li .active {
+    border-bottom: 5px solid #b98b59;
 }
