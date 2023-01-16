@@ -118,8 +118,31 @@ header {
     font-size: 12px;
     font-weight: 600;
     text-decoration: none;
-    padding: 13px 45px;
+    padding: 15px 45px;
     background-color: #b98b59;
     border-radius: 25px;
     margin-top: 28px;
+}
+
+.banner .pointer {
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.banner .pointer .circle {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b98b59;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.banner .active-pointer {
+    background-color: #b98b59;
 }
