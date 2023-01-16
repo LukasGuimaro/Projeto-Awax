@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Montserrat', arial, sans-serif;
+    overflow-x: hidden; /* Ignorar barra horizontal */
 }
 
 header {
@@ -145,4 +146,42 @@ header {
 
 .banner .active-pointer {
     background-color: #b98b59;
+}
+
+.default {
+    padding: 50px 0px;
+    /* background-color: orange; */
+}
+
+.default .section-title,
+.default .section-desc {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.default .section-title {
+    font-size: 20px;
+}
+
+.default .section-desc {
+    font-size: 12px;
+    color: #aeaeae;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.default .section-body {
+    margin: auto;
+    max-width: 1140px;
+    background-color: #CCC;
+    margin-bottom: 40px;
+}
+
+.default .dark {
+    background-color: black;
+}
+
+.default .dark .section-title {
+    color: white;
 }
