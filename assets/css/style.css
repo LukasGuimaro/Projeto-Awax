@@ -222,3 +222,31 @@ header {
     line-height: 25px;
     text-align: justify;
 }
+
+.section-services {
+    display: flex;
+}
+
+.section-services .section-service {
+    color: white;
+    flex: 1;
+    text-align: center;
+    border-left: 1px solid #999;
+    padding: 15px;
+}
+
+.section-service:last-child {
+    border-right: 1px solid #999;
+}
+
+.section-service h4 {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 18px;
+}
+
+.section-service p {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #999;
+}
