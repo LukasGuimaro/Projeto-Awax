@@ -9,6 +9,8 @@ body {
     overflow-x: hidden; /* Ignorar barra horizontal */
 }
 
+/* CSS DA INTERFACE */
+
 header {
     height: 100px;
     background-color: black;
@@ -31,6 +33,19 @@ header {
 .logo img {
     width: 60px;
     height: 60px;
+}
+
+.buttom {
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 15px 45px;
+    background-color: #b98b59;
+    border-radius: 25px;
+    margin-top: 28px;
 }
 
 .menu {
@@ -113,18 +128,6 @@ header {
     margin-top: 10px;
 }
 
-.banner .areaslide a {
-    color: white;
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 600;
-    text-decoration: none;
-    padding: 15px 45px;
-    background-color: #b98b59;
-    border-radius: 25px;
-    margin-top: 28px;
-}
-
 .banner .pointer {
     width: 100%;
     height: 20px;
@@ -150,7 +153,6 @@ header {
 
 .default {
     padding: 50px 0px;
-    /* background-color: orange; */
 }
 
 .default .section-title,
@@ -174,7 +176,6 @@ header {
 .default .section-body {
     margin: auto;
     max-width: 1140px;
-    background-color: #CCC;
     margin-bottom: 40px;
 }
 
@@ -184,4 +185,40 @@ header {
 
 .default .dark .section-title {
     color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/* CSS ESPECIFICO */
+
+.section-aboutus {
+    display: flex;
+}
+
+.section-aboutus-left {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.section-aboutus-right {
+    width: 500px;
+    text-align: center;
+}
+
+.section-aboutus-right img {
+    width: 480px;
+    box-shadow: 0px 5px 10px #333;
+}
+
+.section-aboutus-left p {
+    font-size: 14px;
+    line-height: 25px;
+    text-align: justify;
 }
