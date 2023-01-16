@@ -83,5 +83,43 @@ header {
     width: 100vw;
     height: 100%;
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.banner .areaslide {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.banner .areaslide h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.banner .areaslide span {
+    color: #b98b59;
+}
+
+.banner .areaslide p {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.banner .areaslide a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 13px 45px;
+    background-color: #b98b59;
+    border-radius: 25px;
+    margin-top: 28px;
 }
