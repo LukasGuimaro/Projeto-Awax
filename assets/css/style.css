@@ -62,4 +62,13 @@ header {
 .menu li a:hover,
 .menu li .active {
     border-bottom: 5px solid #b98b59;
+    color: #CCC;
+}
+
+.banner {
+    height: calc(100vh - 100px); /* Funcao para deixar o banner do tamanho da tela do usuario */
+    background-color: #333; /* Fundo caso a imagem carregue */
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center;
 }
