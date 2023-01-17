@@ -359,3 +359,95 @@ header {
     background-color: rgba(0, 0, 0, 0.7);
     padding: 50px 0px;
 }
+
+.section-team .sliders {
+    /* width: 100vw; */
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.section-team .slide {
+    width: 350px;
+    height: 430px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .section-team .areaslide {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+} */
+
+.section-team {
+    overflow: hidden;
+} 
+
+.team-area .pointer {
+    width: 100%;
+    height: 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.team-area .pointer .circle {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b98b59;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.team-area .active-pointer {
+    background-color: #b98b59;
+}
+
+.section-team .team-avatar {
+    width: 150px;
+}
+
+.section-team .team-name {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+
+.section-team  .team-role {
+    font-size: 15px;
+    color: #555;
+}
+
+.section-team  .team-social {
+    margin-top: 40px;
+    display: flex;
+    gap: 8px;
+}
+
+.section-team  .team-social a {
+    background-color: #aeaeae;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-team .team-social .active,
+.section-team .team-social a:hover {
+    background-color: #b98b59;
+}
