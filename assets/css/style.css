@@ -347,3 +347,15 @@ header {
     font-size: 14px;
     text-align: center;
 }
+
+.bg-team {
+    background-image: url(../images/city.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0px;
+}
+
+.team-area {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 50px 0px;
+}
