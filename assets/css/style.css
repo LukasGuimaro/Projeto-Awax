@@ -300,12 +300,50 @@ header {
     margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    background-color: orange;
+    justify-content: center;
+    gap: 30px;
 }
 
 .section-photo {
-    width: 255px;
-    height: 165px;
-    background-color: #999;
+    width: 260px;
+    height: 170px;
+}
+
+.section-photo .photo-area {
+    width: inherit;
+    height: inherit;
+}
+
+.section-photo .photo-area:hover .photo-area-info{
+    display: flex;
+}
+
+.section-photo .photo-area img {
+    width: inherit;
+    height: inherit;
+}
+
+.photo-area-info {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: inherit;
+    height: inherit;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding: 40px;
+    gap: 15px;
+}
+
+.photo-area-info h5 {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.photo-area-info p {
+    font-size: 14px;
+    text-align: center;
 }
