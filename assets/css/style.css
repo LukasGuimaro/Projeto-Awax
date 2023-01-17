@@ -293,3 +293,19 @@ header {
 .section-projects-filters li:first-child {
     border-left: none;
 }
+
+.section-photos {
+    width: 100%; /* Usando o maximo da tela */
+    max-width: 1140px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: orange;
+}
+
+.section-photo {
+    width: 255px;
+    height: 165px;
+    background-color: #999;
+}
