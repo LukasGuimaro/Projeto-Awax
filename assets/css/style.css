@@ -516,7 +516,7 @@ header {
     align-items: center;
     justify-content: center;
     gap: 80px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     background-color: white;
     border-top: 1px solid #CCC;
     border-bottom: 1px solid #CCC;
@@ -601,4 +601,88 @@ header {
 
 .table .price-premium {
     background-color: #b98b59;
+}
+
+.premium-conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #CCC;
+}
+
+.premium-conteiner .premium-img {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.premium-conteiner .premium-feature {
+    flex: 1;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.premium-feature .feature {
+    display: flex;
+    gap: 30px;
+}
+
+.feature .feature-content h4 {
+    text-transform: uppercase;
+}
+
+.feature .feature-content p {
+    margin-top: 15px;
+    color: #333;
+    font-size: 14px;
+}
+
+.feature-list {
+    margin-top: 15px;
+    color: #333;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.feature-list .line {
+    width: 10px;
+    height: 1px;
+    background-color: #333;
+}
+
+.feature-list .feature-line {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.premium-pointer {
+    width: 100%;
+    height: 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.premium-pointer .circle {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b98b59;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.premium-pointer .active-pointer {
+    background-color: #b98b59;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
 }
