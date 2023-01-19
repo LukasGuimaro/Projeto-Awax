@@ -686,3 +686,40 @@ header {
     justify-content: center;
     margin-top: 35px;
 }
+
+.section-fact .section-number {
+    font-size: 35px;
+    color: #b98b59;
+    font-weight: bold;
+}
+
+.section-fact .line {
+    width: 20px;
+    height: 3px;
+    margin-top: 10px;
+    background-color: #999;
+    margin-inline: auto;
+}
+
+.section-facts {
+    display: flex;
+}
+
+.section-facts .section-fact {
+    color: white;
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+}
+
+.section-fact h4 {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 18px;
+}
+
+.section-fact p {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #CCC;
+}
