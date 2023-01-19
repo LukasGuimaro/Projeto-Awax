@@ -516,7 +516,6 @@ header {
     align-items: center;
     justify-content: center;
     gap: 80px;
-    /* flex-wrap: wrap; */
     background-color: white;
     border-top: 1px solid #CCC;
     border-bottom: 1px solid #CCC;
@@ -722,4 +721,64 @@ header {
     margin-top: 10px;
     font-size: 12px;
     color: #CCC;
+}
+
+.socials-conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-bottom: 1px solid #CCC;
+    padding: 20px;
+    height: 75px;
+}
+
+.socials-conteiner .social {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    color: #999;
+    font-size: 12px;
+}
+
+.socials-conteiner .share {
+    gap: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 30px;
+    color: #999;
+}
+
+.social a {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.socials-conteiner .twitter a {
+    background-color: #33c6f1;
+    margin-right: 5px;
+}
+
+.socials-conteiner .linkedin a {
+    background-color: #147db7;
+    margin-right: 5px;
+}
+
+.socials-conteiner .facebook a {
+    background-color: #336296;
+    margin-right: 5px;
+}
+
+.socials-conteiner .googleplus a {
+    background-color: #e74339;
+    margin-right: 5px;
+}
+
+.socials-conteiner .pinterest a {
+    background-color: #b51d29;
+    margin-right: 5px;
 }
