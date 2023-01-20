@@ -31,11 +31,6 @@ header {
     width: 80px;
 }
 
-.logo img {
-    width: 60px;
-    height: 60px;
-}
-
 .buttom {
     display: inline-block;
     color: white;
@@ -101,6 +96,10 @@ header {
     height: 100%;
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.8);
+}
+
+.bot-menu {
+    display: none;
 }
 
 .banner .areaslide {
@@ -217,6 +216,7 @@ header {
 .section-aboutus-right img {
     width: 480px;
     box-shadow: 0px 5px 10px #333;
+    border-radius: 5px;
 }
 
 .section-aboutus-left p {
@@ -873,4 +873,155 @@ header {
     border-radius: 50%;
     background-color: #999;
     padding: 5px;
+}
+
+.section-footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    color: white;
+}
+
+.section-footer .block-footer {
+    flex: 1;
+}
+
+.block-footer  .footer-socials {
+    display: flex;
+    gap: 8px;
+}
+
+.block-footer  .footer-socials a {
+    background-color: #373737;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block-footer  .footer-socials .active,
+.block-footer  .footer-socials a:hover {
+    background-color: #b98b59;
+}
+
+.block-footer p {
+    font-weight: bold;
+}
+
+.section-footer .socials-aling {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section-footer .footer-text {
+    text-align: justify;
+    color: #999;
+}
+
+.section-footer .footer-form {
+    background-color: #373737;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-footer .footer-form  a {
+    margin-top: 25px;
+}
+
+.section-footer .footer-form input {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #aeaeae;
+    background-color: #373737;
+    height: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    outline: none;
+    color: #aeaeae;
+}
+
+@media (min-width: 450px) and (max-width: 800px) {
+    nav {
+        display: none;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.9);
+        z-index: 1;
+        width: 70vw;
+        height: calc(100vh - 100px);
+        top: 100px;
+        right: 0px;
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .menu li a {
+        font-weight: bold;
+        height: 60px;
+        font-size: 20px;
+        margin-left: 50px;
+        border-bottom: none;
+    }
+
+    .menu li .active {
+        border: none;
+        color: #b98b59;
+    }
+
+    .bot-menu {
+        display: block;
+        width: 40px;
+        margin-right: 40px;
+    }
+
+    .logo img {
+        margin-left: 40px;
+    }
+
+    .section-aboutus {
+        flex-direction: column;
+    }
+
+    .section-aboutus-left {
+        padding: 0px 40px;
+        margin-bottom: 40px;
+    }
+
+    .section-aboutus-right {
+        margin: auto;
+    }
+
+    .section-services {
+        flex-wrap: wrap;
+    }
+
+    .section-services .section-service {
+        min-width: 50%;
+        margin-bottom: 20px;
+        border: none;
+    }
+
+    .premium-img {
+        margin: auto;
+    }
+
+    .premium-feature {
+        margin-top: 40px;
+    }
+
+    .map-area-info {
+        margin: auto;
+    }
+
+    .map-area {
+        padding: 10px 30px;
+    }
 }
