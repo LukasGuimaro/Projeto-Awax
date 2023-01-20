@@ -1024,4 +1024,17 @@ header {
     .map-area {
         padding: 10px 30px;
     }
+
+    .section-footer {
+        flex-direction: column;
+        margin: 0px 40px;
+    }
+
+    .socials-aling {
+        gap: 30px;
+    }
+
+    .footer-form {
+        padding: 20px 0px;
+    }
 }
