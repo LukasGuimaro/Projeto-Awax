@@ -1038,3 +1038,112 @@ header {
         padding: 20px 0px;
     }
 }
+
+@media (max-width: 450px) {
+    nav {
+        display: none;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.9);
+        z-index: 1;
+        width: 70vw;
+        height: calc(100vh - 100px);
+        top: 100px;
+        right: 0px;
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .menu li a {
+        font-weight: bold;
+        height: 45px;
+        font-size: 24px;
+        margin-left: 20px;
+        border-bottom: none;
+    }
+
+    .banner .areaslide h1 {
+        font-size: 30px;
+    }
+
+    .banner .areaslide p {
+        font-size: 17px;
+    }
+
+    .menu li .active {
+        border: none;
+        color: #b98b59;
+    }
+
+    .bot-menu {
+        display: block;
+        width: 40px;
+        margin-right: 40px;
+    }
+
+    .logo img {
+        margin-left: 40px;
+    }
+
+    .section-aboutus {
+        flex-direction: column;
+    }
+
+    .section-aboutus-left {
+        padding: 0px 30px;
+        margin-bottom: 40px;
+    }
+
+    .section-aboutus-right {
+        margin: auto;
+        margin: 0px 30px;
+    }
+
+    .section-aboutus-right img {
+        width: 100%;
+    }
+
+    .section-services {
+        flex-wrap: wrap;
+    }
+
+    .section-services .section-service {
+        min-width: 100%;
+        margin-bottom: 20px;
+        border: none;
+    }
+
+    .section-projects-filters {
+        margin: 0px 30px;
+    }
+
+    .premium-img {
+        margin: auto;
+    }
+
+    .premium-feature {
+        margin-top: 40px;
+    }
+
+    .map-area-info {
+        margin: auto;
+    }
+
+    .map-area {
+        padding: 10px 30px;
+    }
+
+    .section-footer {
+        flex-direction: column;
+        margin: 0px 40px;
+    }
+
+    .socials-aling {
+        gap: 30px;
+    }
+
+    .footer-form {
+        padding: 20px 0px;
+    }
+}
