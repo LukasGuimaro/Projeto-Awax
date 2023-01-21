@@ -515,6 +515,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 80px;
     background-color: white;
     border-top: 1px solid #CCC;
@@ -947,6 +948,12 @@ header {
     color: #aeaeae;
 }
 
+@media (min-width: 800px) and (max-width: 1055px) {
+    .companies-conteiner {
+        height: 300px;
+    }
+}
+
 @media (min-width: 450px) and (max-width: 800px) {
     nav {
         display: none;
@@ -1036,6 +1043,10 @@ header {
 
     .footer-form {
         padding: 20px 0px;
+    }
+
+    .companies-conteiner {
+        height: 300px;
     }
 }
 
